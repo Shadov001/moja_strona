@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(pic.jpg);
+  max-width: fit-content;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: sans-serif;
+  background-size: auto; 
+  background-repeat:  no-repeat;
+
+  
+}
+
+ 
+.loginbox
+{
+  width: 320px;
+  height: 420px;
+  background:linear-gradient(rgb(9, 180, 29) 20%,rgb(61, 161, 150) 80%); 
+  opacity: 0.9;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  
+}
+#form_login {
+  left: 70%;
+  top: 150px;
+  position: absolute;
+  margin-top: -25%;
+}
+
+.avatar
+{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: 0;
+  /* border-radius: 50%; */
+}
+.avatar > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.loginbox-content
+{
+ position: static;
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+
+}
+
+@media (max-width: 800px) {
+  .loginbox{
+    background: linear-gradient(rgb(238, 4, 35) 20%,rgb(61, 161, 150) 80%) !important;
+  }
+}
+@media (max-width: 320px) {
+
+  .loginbox{
+    width: 100%;
+    background: linear-gradient(rgb(238, 4, 35) 20%,rgb(61, 161, 150) 80%) !important;
+  }
+  .form_login {
+    width: 90%;
+    position: static;
+  }
+  input[type=text]{
+    max-width: 100%;
+  }
+  input[type=password]{
+    max-width: 100%;
+  }
+}
