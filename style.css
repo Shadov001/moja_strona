@@ -16,8 +16,8 @@ body{
 .loginbox
 {
   width: 320px;
-  height: 420px;
-  background:linear-gradient(rgb(9, 180, 29) 20%,rgb(61, 161, 150) 80%); 
+  height: 420px !important;
+  background:linear-gradient(rgb(57, 84, 138) 20%,rgb(49, 121, 112) 80%); 
   opacity: 0.9;
   color: #fff;
   top: 50%;
@@ -53,7 +53,7 @@ body{
   max-height: 100%;
 }
 
-.loginbox-content
+/* .loginbox-content
 {
  position: static;
  left: 0;
@@ -61,27 +61,23 @@ body{
  height: 100%;
  width: 100%;
 
-}
+} */
 
-@media (max-width: 800px) {
-  .loginbox{
-    background: linear-gradient(rgb(238, 4, 35) 20%,rgb(61, 161, 150) 80%) !important;
-  }
-}
 @media (max-width: 320px) {
 
   .loginbox{
-    width: 100%;
-    background: linear-gradient(rgb(238, 4, 35) 20%,rgb(61, 161, 150) 80%) !important;
+    width: 220px;
+    position: absolute;
+    background: linear-gradient(rgb(169, 202, 231) 20%,rgb(32, 112, 103) 80%) !important;
   }
   .form_login {
-    width: 90%;
-    position: static;
+    width: 75%;
+    /* position: static; */
   }
   input[type=text]{
-    max-width: 100%;
+    max-width: 65%;
   }
   input[type=password]{
-    max-width: 100%;
+    max-width: 65%;
   }
 }

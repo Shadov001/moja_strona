@@ -13,7 +13,7 @@
  <link rel="stylesheet" type="text/css" href="style.css">
 <body>
     <div class="loginbox">
-    <div class="loginbox-content">
+    <!-- <div class="loginbox-content"> -->
         <div class="avatar">
             <img src="avatar.jpg" />
          <div class="form_login">   
