@@ -13,26 +13,28 @@
  <link rel="stylesheet" type="text/css" href="style.css">
 <body>
     <div class="loginbox">
-    <!-- <div class="loginbox-content"> -->
         <div class="avatar">
             <img src="avatar.jpg" />
          <div class="form_login">   
-            <form method="POST" id="form_login">
+           
+     <form method="POST" id="form_login">
+            <h1> Login Here </h1>
         <p>
             <input type="text" id="username" placeholder="Login" />
         </p>
         <p>
-            <input type="password" id="password" placeholder="Hasło" />
+            <input type="password" id="password" placeholder="Password" />
         </p>
         <p>
-            <button id="submitbutton" type="button">Zaloguj</button>
+            <button id="submitbutton" type="button" action = "login.php">Login</button>
         </p>
+        <span class="container-invitation">Nie masz jeszcze konta? <a href="signup.php">Zarejestruj się</a></span>
     </form>
-</div>
-       
-        </div>      
-       </div>
+
     </div>
+  </div>      
+ </div>
+
 
 </body>
 </head>
